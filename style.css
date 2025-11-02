@@ -1,0 +1,74 @@
+/* 🌤️ Professional Weather Dashboard Theme */
+
+body {
+    background: linear-gradient(135deg, #e0f7fa, #ffffff);
+    color: #212529;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, p {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    color: #0288d1;
+    font-weight: 700;
+    margin-bottom: 25px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+input {
+    border: 2px solid #03a9f4;
+    border-radius: 10px !important;
+    padding: 10px;
+    font-size: 16px;
+    color: #212529;
+    background-color: #ffffff !important;
+}
+
+.stButton > button {
+    background: linear-gradient(135deg, #0288d1, #03a9f4);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.stButton > button:hover {
+    background: linear-gradient(135deg, #039be5, #4fc3f7);
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(3,169,244,0.4);
+}
+
+.weather-card {
+    background: #ffffffcc;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 30px rgba(0,0,0,0.1);
+    text-align: center;
+    margin-top: 30px;
+    animation: fadeIn 1.2s ease-in-out;
+    backdrop-filter: blur(10px);
+}
+
+.weather-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px rgba(2,136,209,0.3);
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #555;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
